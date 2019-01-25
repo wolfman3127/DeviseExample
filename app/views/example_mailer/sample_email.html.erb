@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hi <%= @name %>
+    <p><% @goof.each do |y| %>
+  <%= y.name %>
+<% end %>
+
+      Sample mail sent using smtp.
+    </p>
+  </body>
+</html>
